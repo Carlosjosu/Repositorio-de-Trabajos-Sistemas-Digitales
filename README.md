@@ -71,7 +71,8 @@ Haz clic para abrir el archivo del sketch:
 - IDE de Arduino
 
 ### Circuito armado
-<img width="1036" height="527" alt="image" src="https://github.com/user-attachments/assets/a3edc3b6-1f94-4365-aee4-5034bae67fbb" />
+<img width="1388" height="931" alt="image" src="https://github.com/user-attachments/assets/399b911d-4df3-480c-9450-0b67a1131d3e" />
+
 
 ## Autor
 
