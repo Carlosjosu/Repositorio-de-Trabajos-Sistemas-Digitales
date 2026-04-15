@@ -35,6 +35,43 @@ Haz clic para abrir el archivo del sketch:
 ### Circuito armado
 <img width="1036" height="527" alt="image" src="https://github.com/user-attachments/assets/a3edc3b6-1f94-4365-aee4-5034bae67fbb" />
 
+### 2) Control de patrones LED con Arduino
+
+- Fecha: 16 de abril de 2026
+- Tema principal: Patrones de LEDs, control de eventos y secuencias
+- Lenguaje: C/C++ (Arduino)
+
+#### Qué hace el programa
+
+1. Controla 6 LEDs conectados a los pines 2-7.
+2. Utiliza un pulsador en el pin 8 para activar/desactivar los patrones.
+3. Genera aleatoriamente 5 patrones diferentes cada vez que se presiona el botón:
+   - **Patrón 0 (Secuencia)**: LED se desplaza de un lado a otro.
+   - **Patrón 1 (Persecución)**: LED con cola de atenuación que se desplaza.
+   - **Patrón 2 (Parpadeo)**: Todos los LEDs parpadean sincronizados.
+   - **Patrón 3 (Aleatorio)**: LEDs aleatorios con probabilidad de doble destello.
+   - **Patrón 4 (Onda)**: Efecto de onda sinusoidal usando PWM.
+4. Usa `millis()` para sincronización no bloqueante de tiempos.
+5. Implementa lectura de botón con detección de flanco ascendente.
+
+#### Codigo
+
+Haz clic para abrir el archivo del sketch:
+
+- [Ver codigo Arduino (.ino)](trabajos/2026-04-16-patrones-led-arduino.ino)
+
+#### Material necesario
+
+- Arduino UNO (o compatible)
+- Cable USB
+- 6 LEDs
+- 6 resistencias (220Ω - 470Ω)
+- 1 Pulsador/Switch
+- Protoboard y cables de conexión
+- IDE de Arduino
+
+### Circuito armado
+<img width="1036" height="527" alt="image" src="https://github.com/user-attachments/assets/a3edc3b6-1f94-4365-aee4-5034bae67fbb" />
 
 ## Autor
 
