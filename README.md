@@ -4,7 +4,7 @@ Este repositorio tendra trabajos, prácticas y ejercicios de la materia de Siste
 
 ## Trabajos cargados
 
-### 1) Práctica de operaciones bitwise con Arduino
+### 1) Práctica de operaciones bitwise con Arduino APE 1
 
 - Fecha: 9 de abril de 2026
 - Tema principal: operadores bitwise y control de LED
@@ -31,6 +31,9 @@ Haz clic para abrir el archivo del sketch:
 - Cable USB
 - LED integrado en pin 13 (o LED externo con resistencia)
 - IDE de Arduino
+
+### Circuito armado
+![Circuito armado](imagenes/Captura de pantalla 2026-04-09 115527.png)
 
 ## Autor
 
