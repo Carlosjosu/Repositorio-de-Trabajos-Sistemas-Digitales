@@ -33,7 +33,8 @@ Haz clic para abrir el archivo del sketch:
 - IDE de Arduino
 
 ### Circuito armado
-![Circuito armado](imagenes/Captura de pantalla 2026-04-09 115527.png)
+<img width="1036" height="527" alt="image" src="https://github.com/user-attachments/assets/a3edc3b6-1f94-4365-aee4-5034bae67fbb" />
+
 
 ## Autor
 
