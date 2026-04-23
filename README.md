@@ -73,6 +73,38 @@ Haz clic para abrir el archivo del sketch:
 ### Circuito armado
 <img width="1388" height="931" alt="image" src="https://github.com/user-attachments/assets/399b911d-4df3-480c-9450-0b67a1131d3e" />
 
+### 3) Medición de frecuencia y duty cycle (555 y FF)
+
+- Fecha: 23 de abril de 2026
+- Tema principal: medición de frecuencia y ciclo de trabajo en señales digitales
+- Lenguaje: C/C++ (Arduino)
+
+#### Qué hace el programa
+
+1. Lee dos señales digitales: una del temporizador 555 y otra de un FF.
+2. Detecta flancos de subida y bajada en ambos pines.
+3. Calcula el periodo en milisegundos para cada señal.
+4. Obtiene la frecuencia en Hz y el duty cycle en porcentaje.
+5. Muestra los resultados por Monitor Serial cada 500 ms.
+
+#### Codigo
+
+Haz clic para abrir el archivo del sketch:
+
+- [Ver codigo Arduino (.ino)](trabajos/2026-04-23-medicion-frecuencia-duty-arduino.ino)
+
+#### Material necesario
+
+- Arduino UNO (o compatible)
+- Cable USB
+- Circuito con temporizador 555
+- Flip-Flop (FF)
+- Protoboard y cables de conexión
+- IDE de Arduino
+
+### Circuito armado
+![Circuito armado](Imagenes/Captura%20de%20pantalla%202026-04-22%20223216.png)
+
 
 ## Autor
 
