@@ -105,6 +105,41 @@ Haz clic para abrir el archivo del sketch:
 ### Circuito armado
 ![Circuito armado](Imagenes/Captura%20de%20pantalla%202026-04-22%20223216.png)
 
+### 4) Laboratorio simulado APE 14 con MQTT, Python y ESP32
+
+- Fecha: APE 14
+- Tema principal: comunicacion MQTT entre publicador, suscriptor y ESP32
+- Lenguaje: Python y C/C++ (Arduino / ESP32)
+
+#### Que hace el laboratorio
+
+1. El script publicador simula una lectura de temperatura y la envia al broker MQTT.
+2. El script suscriptor recibe los mensajes de temperatura y el estado del LED.
+3. El ESP32 publica la temperatura del sensor LM35 y recibe ordenes para encender o apagar el LED.
+4. Se usa FreeRTOS con una tarea para MQTT, una para el sensor y otra para el control del LED.
+
+#### Codigo
+
+Haz clic para abrir los archivos del laboratorio:
+
+- [Ver publicador Python](trabajos/APE14/publicador.py)
+- [Ver suscriptor Python](trabajos/APE14/suscriptor.py)
+- [Ver codigo ESP32 (.ino)](trabajos/APE14/esp32-ape14.ino)
+
+#### Material necesario
+
+- Broker MQTT ejecutandose en la PC
+- Python 3 con la libreria paho-mqtt
+- ESP32
+- Sensor LM35
+- LED y resistencia
+- IDE de Arduino o entorno compatible con ESP32
+
+#### Tópicos MQTT usados
+
+- `laboratorio/temperatura`
+- `laboratorio/led`
+
 
 ## Autor
 
